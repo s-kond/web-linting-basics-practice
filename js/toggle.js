@@ -1,4 +1,4 @@
-export function toggleButton() {
+export default function toggleButton() {
   const cards = document.querySelectorAll('[data-js=card]');
   
   cards.forEach(card => {
